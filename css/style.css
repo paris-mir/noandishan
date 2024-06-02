@@ -596,17 +596,49 @@ a:focus {
   background-color: #8f8f8f;
 }
 
-.services-slider {
+.services__slider-container {
   margin-bottom: 50px;
+  position: relative;
 }
-.services-slider .slide {
-  display: none;
+.services__slider-container .services__button-wrapper .services__next-arrow{
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #efefef;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(50%, -50%);
+transform: translate(50%, -50%);
 }
-.services-slider .active {
-  display: block;
+.services__slider-container .services__button-wrapper .services__next-arrow img,.services__slider-container .services__button-wrapper .services__prev-arrow img{
+  width: 35px;
 }
 
-.services-slider .slide-container {
+.services__slider-container .services__button-wrapper .services__prev-arrow{
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid #e4e4e4;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.services__slider-container .services__button-wrapper .services__next-arrow:hover,.services__slider-container .services__button-wrapper .services__prev-arrow:hover{
+  cursor: pointer;
+  background-color: #e4e4e4;
+  border: 1px solid #353434;
+  transition: all 0.3s ease;
+}
+.services__slider-container .services-slide{
+  display: none;
+}
+.active{
+  display: block !important;
+}
+.services__slider-container .services-slide .slide-container {
   padding: 50px;
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -615,7 +647,7 @@ a:focus {
   background-color: #e4e4e4;
 }
 
-.services-slider .slide-container .text-wrapper {
+.services__slider-container .services-slide .slide-container .text-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -623,7 +655,7 @@ a:focus {
   margin-left: 30px;
 }
 
-.services-slider .slide-container .text-wrapper div {
+.services__slider-container .services-slide .slide-container .text-wrapper div {
   display: flex;
   width: 100%;
   justify-content: flex-end;
@@ -636,7 +668,7 @@ a:focus {
   }
 }
 
-.services-slider .slide-container .text-wrapper a:hover {
+.services__slider-container .services-slide .slide-container .text-wrapper a:hover {
   cursor: pointer;
   background-color: #fff;
   color: #353434;
