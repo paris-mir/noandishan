@@ -10,8 +10,8 @@
 let slideCount =0;  
 let servicesSlide = Array.from(document.getElementsByClassName("services-slide"))
 let servicesNav = Array.from(document.querySelectorAll(".services_container .box"))
-let nextSlide = document.getElementsByClassName("services__next-arrow")
-let prevSlide = document.getElementsByClassName("services__prev-arrow")
+let nextSlide = document.querySelector(".services__next-arrow")
+let prevSlide = document.querySelector(".services__prev-arrow")
 
 function displayNone(){
   for(let i =0;i<servicesSlide.length;i++){
