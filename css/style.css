@@ -253,7 +253,7 @@ a:focus {
   box-sizing: border-box;
 }
 .heading_container {
-  margin-top: 50px;
+  margin-top: 75px;
   display: flex !important;
   text-align: right;
   display: -webkit-box;
