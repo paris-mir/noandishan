@@ -671,7 +671,7 @@ margin-top: -75px;
   background-color: #000000;
 }
 .services_section .services_container .box .img-box .active {
-  background-color: #8f8f8f;
+  background-color: #efefef;
 }
 
 .services__slider-container {
@@ -731,7 +731,7 @@ margin-top: -75px;
   grid-template-columns: 2fr 1fr;
   justify-content: center;
   border-radius: 15px;
-  background-color: #e4e4e4;
+  background-color: #efefef;
 }
 
 .services__slider-container .services-slide .slide-container .text-wrapper {
