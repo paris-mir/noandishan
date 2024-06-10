@@ -209,7 +209,7 @@
         <div class="heading_container about__activity-header">
           <h2 class="mb-2 text-center align-self-center">درباره‌ی ما</h2>
 
-          <div class="history-section__content">
+          <div class="history-section__content"  style="margin-top: 75px;">
             <div>
               <p>
                 گروه گلیان نقش مهمی در تحول اکوسیستم تبلیغات ایران ایفا کرده و
@@ -227,7 +227,7 @@
               </div>
             </div>
 
-            <img class="w-100" src="./images/company.png" alt="" />
+            <img  src="./images/company.png" alt="" />
           </div>
         </div>
       </div>
@@ -238,7 +238,7 @@
 
     <section class="services_section">
       <div class="container">
-        <div class="heading_container" id="index-services">
+        <div class="heading_container">
           <h2>خدمات</h2>
           <p>
             نواندیشان یک شرکت پیشرو در ارائه راه‌حل‌های نوآورانه و تاثیرگذار در
@@ -249,8 +249,16 @@
           </p>
         </div>
 
-        <div class="services-slider">
-          <div class="slide active">
+        <div class="services__slider-container">
+          <div class="services__button-wrapper">
+            <div class="services__next-arrow">
+              <img src="./images/forward.png" alt="اسلاید بعدی" />
+            </div>
+            <div class="services__prev-arrow">
+              <img src="./images/previous.png" alt="اسلاید قبلی" />
+            </div>
+          </div>
+          <div class="services-slide active">
             <div class="slide-container">
               <div class="text-wrapper">
                 <h5>تبلیغات محیطی</h5>
@@ -260,14 +268,10 @@
                   مکان‌های عمومی مانند بیلبوردها، تابلوهای دیجیتال، تابلوی
                   پیشانی پل ها، وسایل حمل و نقل عمومی، ایستگاه‌های مترو و
                   اتوبوس، پمپ بنزین‌ها، کیوسک‌ها و حتی مبلمان شهری به چشم
-                  مخاطبان می‌رسد.نواندیشان با سال‌ها تجربه در صنعت تبلیغات،
-                  می‌تواند به شما در طراحی و اجرای یک کمپین تبلیغات محیطی موفق
-                  کمک کند. ما با در نظر گرفتن نیازها و بودجه شما، بهترین مکان‌ها
-                  و فرمت‌های تبلیغاتی را برای رساندن پیام برند شما به مخاطبان
-                  هدفمندتان انتخاب می‌کنیم.
+                  مخاطبان می‌رسد.
                 </p>
                 <div>
-                  <a href="#env-ads">بیشتر بخوانید</a>
+                  <a href="/do.html#env-ads">بیشتر بخوانید</a>
                 </div>
               </div>
               <div class="img-wrapper">
@@ -275,7 +279,7 @@
               </div>
             </div>
           </div>
-          <div class="slide">
+          <div class="services-slide">
             <div class="slide-container">
               <div class="text-wrapper">
                 <h5>بازاریابی دیجیتال</h5>
@@ -300,7 +304,7 @@
               </div>
             </div>
           </div>
-          <div class="slide">
+          <div class="services-slide">
             <div class="slide-container">
               <div class="text-wrapper">
                 <h5>بازاریابی تلویزیونی</h5>
@@ -325,7 +329,7 @@
               </div>
             </div>
           </div>
-          <div class="slide">
+          <div class="services-slide">
             <div class="slide-container">
               <div class="text-wrapper">
                 <h5>هویت برند</h5>
@@ -350,7 +354,7 @@
               </div>
             </div>
           </div>
-          <div class="slide">
+          <div class="services-slide">
             <div class="slide-container">
               <div class="text-wrapper">
                 <h5>تولید محتوا</h5>
@@ -376,65 +380,88 @@
             </div>
           </div>
         </div>
+
         <div class="services_container">
-          <div class="box">
-            <div class="img-box">
-              <a
-                href=""
-                class="do_container-anchor d-flex justify-content-center align-items-center"
-                ><img src="images/d-1.png" alt=""
-              /></a>
-            </div>
-            <div class="detail-box">
-              <h6 class="text-center">تبلیغات محیطی</h6>
-            </div>
-          </div>
-          <div class="box">
-            <div class="img-box">
-              <a
-                href=""
-                class="do_container-anchor d-flex justify-content-center align-items-center"
-                ><img src="images/d-2.png" alt=""
-              /></a>
-            </div>
-            <div class="detail-box">
-              <h6 class="text-center">بازاریابی دیجیتال</h6>
+          <div class="box selected">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <div class="img-box">
+                <div
+                  class="do_container-anchor d-flex justify-content-center align-items-center"
+                >
+                  <img src="images/d-1.png" alt="" />
+                </div>
+              </div>
+              <div class="detail-box">
+                <h6 class="text-center">تبلیغات محیطی</h6>
+              </div>
             </div>
           </div>
           <div class="box">
-            <div class="img-box">
-              <a
-                href=""
-                class="do_container-anchor d-flex justify-content-center align-items-center"
-                ><img src="images/d-3.png" alt=""
-              /></a>
-            </div>
-            <div class="detail-box">
-              <h6 class="text-center">بازاریابی تلویزیونی</h6>
-            </div>
-          </div>
-          <div class="box">
-            <div class="img-box">
-              <a
-                href=""
-                class="do_container-anchor d-flex justify-content-center align-items-center"
-                ><img src="images/d-4.png" alt=""
-              /></a>
-            </div>
-            <div class="detail-box">
-              <h6 class="text-center">هویت برند</h6>
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <div class="img-box">
+                <div
+                  class="do_container-anchor d-flex justify-content-center align-items-center"
+                >
+                  <img src="images/d-2.png" alt="" />
+                </div>
+              </div>
+              <div class="detail-box">
+                <h6 class="text-center">بازاریابی دیجیتال</h6>
+              </div>
             </div>
           </div>
           <div class="box">
-            <div class="img-box">
-              <a
-                href=""
-                class="do_container-anchor d-flex justify-content-center align-items-center"
-                ><img src="images/d-5.png" alt=""
-              /></a>
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <div class="img-box">
+                <div
+                  href=""
+                  class="do_container-anchor d-flex justify-content-center align-items-center"
+                >
+                  <img src="images/d-3.png" alt="" />
+                </div>
+              </div>
+              <div class="detail-box">
+                <h6 class="text-center">بازاریابی تلویزیونی</h6>
+              </div>
             </div>
-            <div class="detail-box">
-              <h6 class="text-center">تولید محتوا</h6>
+          </div>
+          <div class="box">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <div class="img-box">
+                <div
+                  href=""
+                  class="do_container-anchor d-flex justify-content-center align-items-center"
+                >
+                  <img src="images/d-4.png" alt="" />
+                </div>
+              </div>
+              <div class="detail-box">
+                <h6 class="text-center">هویت برند</h6>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <div class="img-box">
+                <a
+                  href=""
+                  class="do_container-anchor d-flex justify-content-center align-items-center"
+                  ><img src="images/d-5.png" alt=""
+                /></a>
+              </div>
+              <div class="detail-box">
+                <h6 class="text-center">تولید محتوا</h6>
+              </div>
             </div>
           </div>
         </div>

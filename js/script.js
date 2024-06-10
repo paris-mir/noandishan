@@ -1,11 +1,22 @@
-// const careerList = Array.from(document.querySelectorAll(".careers__list-nav ul li"));
-// const careerItems = Array.from(document.querySelectorAll(".careers__list-nav-items"));
+//------------------------about us------------------------//
+$(document).ready(function(){
+  $(".accomp__items:first").show();
+  $(".accomp-nav:first").addClass("focus");
+  $(".accomp-nav").click(function(event){
+    index = $(this).index();
+    $(".accomp-nav").removeClass("focus");
+    $(this).addClass("focus");
+    $(".accomp__items").hide();
+    $(".accomp__items").eq(index).show()
 
-// const navLinks = Array.from(document.querySelectorAll(".nav-link"));
-// const linkHref = [];
-// navLinks.forEach(link => (
-//     linkHref.push(link.getAttribute("href"))
-// ))
+
+  })
+})
+
+
+
+
+
 //------------------services section---------------------//
 let slideCount =0;  
 let servicesSlide = Array.from(document.getElementsByClassName("services-slide"))
@@ -18,6 +29,72 @@ function displayNone(){
     servicesSlide[i].style.display
   }
 }
+
+
+$(document).ready(function(){
+  $(".services_items:first").show();
+  $(".services__details-list:first").addClass("focus");
+  $(".services__details-list").click(function(event){
+    index = $(this).index();
+    $(".services__details-list").removeClass("focus");
+    $(this).addClass("focus");
+    $(".services_items").hide();
+    $(".services_items").eq(index).show()
+
+
+  })
+})
+
+$(document).ready(function(){
+  $(".nav-details2:first").show();
+  $(".nav-list2:first").addClass("focus");
+  $(".nav-list2").click(function(event){
+    index = $(this).index();
+    $(".nav-list2").removeClass("focus");
+    $(this).addClass("focus");
+    $(".nav-details2").hide();
+    $(".nav-details2").eq(index).show()
+  })
+})
+
+
+$(document).ready(function(){
+  $(".nav-details3:first").show();
+  $(".nav-list3:first").addClass("focus");
+  $(".nav-list3").click(function(event){
+    index = $(this).index();
+    $(".nav-list2").removeClass("focus");
+    $(this).addClass("focus");
+    $(".nav-details3").hide();
+    $(".nav-details3").eq(index).show()
+  })
+})
+$(document).ready(function(){
+  $(".nav-details4:first").show();
+  $(".nav-list4:first").addClass("focus");
+  $(".nav-list4").click(function(event){
+    index = $(this).index();
+    $(".nav-list4").removeClass("focus");
+    $(this).addClass("focus");
+    $(".nav-details4").hide();
+    $(".nav-details4").eq(index).show()
+  })
+})
+$(document).ready(function(){
+  $(".nav-details5:first").show();
+  $(".nav-list5:first").addClass("focus");
+  $(".nav-list5").click(function(event){
+    index = $(this).index();
+    $(".nav-list5").removeClass("focus");
+    $(this).addClass("focus");
+    $(".nav-details5").hide();
+    $(".nav-details5").eq(index).show()
+  })
+})
+
+
+
+
 
 
 
