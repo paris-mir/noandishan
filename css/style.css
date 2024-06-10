@@ -462,6 +462,11 @@ a:focus {
     text-align: justify;
   }
 }
+.about-section__accomp2{
+  display: none;
+}
+
+
 .about-section__iran-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -714,7 +719,9 @@ a:focus {
     background-color: #000;
   }
 }
-
+.services_details-item{
+  display: none;
+}
 .services_section .heading_container .heading_container-detail {
   display: flex;
   align-items: flex-start;

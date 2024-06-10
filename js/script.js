@@ -14,9 +14,6 @@ $(document).ready(function(){
 })
 
 
-
-
-
 //------------------services section---------------------//
 let slideCount =0;  
 let servicesSlide = Array.from(document.getElementsByClassName("services-slide"))
